@@ -11,6 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path = "Feedback")
+@CrossOrigin(origins = "https://servicesplusbackend.herokuapp.com/")
 public class FeedbackContoller {
     private FeedbackService feedbackService;
 

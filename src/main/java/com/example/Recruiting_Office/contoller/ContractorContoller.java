@@ -10,6 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path ="Contractor")
+@CrossOrigin(origins = "https://servicesplusbackend.herokuapp.com/")
 public class ContractorContoller {
     private ContractorService contractorService;
     @Autowired

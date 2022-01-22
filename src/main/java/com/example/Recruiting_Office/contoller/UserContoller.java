@@ -11,6 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path = "user")
+@CrossOrigin(origins = "https://servicesplusbackend.herokuapp.com/")
 public class UserContoller {
 
     private UserService userService;
