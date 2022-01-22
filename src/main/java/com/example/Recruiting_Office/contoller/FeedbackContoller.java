@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-
+@CrossOrigin(origins = "https://servicesplusbackend.herokuapp.com/")
 @RestController
 @RequestMapping(path = "Feedback")
-@CrossOrigin(origins = "https://servicesplusbackend.herokuapp.com/")
+
 public class FeedbackContoller {
     private FeedbackService feedbackService;
 

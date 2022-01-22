@@ -7,10 +7,12 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
+@CrossOrigin(origins = "https://servicesplusbackend.herokuapp.com/")
 
 @RestController
+
 @RequestMapping(path ="Contractor")
-@CrossOrigin(origins = "https://servicesplusbackend.herokuapp.com/")
+
 public class ContractorContoller {
     private ContractorService contractorService;
     @Autowired
