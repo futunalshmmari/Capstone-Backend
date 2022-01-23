@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "https://servicesplusbackend.herokuapp.com/")
+@CrossOrigin(origins = "https://almaha1.herokuapp.com/")
 @RestController
 @RequestMapping(path = "Feedback")
 
